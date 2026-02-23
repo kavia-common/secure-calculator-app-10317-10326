@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Secure Calculator</string>
+
+    <string name="login_title">Welcome</string>
+    <string name="login_subtitle">Sign in to access the calculator dashboard.</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="login_hint">Tip: Any non-empty username/password will work in this demo.</string>
+    <string name="login_error_required">Please enter both username and password.</string>
+
+    <string name="calculator_title">Calculator</string>
+    <string name="calculator_title_user">Calculator • %1$s</string>
+    <string name="result">Result</string>
+    <string name="number_a">Number A</string>
+    <string name="number_b">Number B</string>
+
+    <string name="add">Add</string>
+    <string name="subtract">Subtract</string>
+    <string name="multiply">Multiply</string>
+    <string name="divide">Divide</string>
+
+    <string name="calc_error_required">Please enter both numbers.</string>
+    <string name="calc_error_invalid_number">Please enter valid numbers.</string>
+    <string name="calc_error_divide_by_zero">Cannot divide by zero.</string>
+</resources>
