@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
     <application android:label="@string/app_name">
-        <activity android:name=".MainActivity">
+        <!-- Launch into LoginActivity (required by work item) -->
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Post-login screen -->
+        <activity android:name=".CalculatorActivity" />
+
+        <!-- Keep legacy activity (not launcher) to avoid breaking any existing references -->
+        <activity android:name=".MainActivity" />
     </application>
+
 </manifest>
